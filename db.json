@@ -132,5 +132,55 @@
       "disciplinaId": 1,
       "id": 4
     }
+  ],
+  "cargos": [
+    {
+      "id": 1,
+      "nome": "Professor"
+    },
+    {
+      "id": 2,
+      "nome": "Cargo 2"
+    },
+    {
+      "id": 3,
+      "nome": "Cargo 3"
+    }
+  ],
+  "funcoes": [
+    {
+      "id": 1,
+      "nome": "Lecionar"
+    },
+    {
+      "id": 2,
+      "nome": "Bibliotecario"
+    },
+    {
+      "id": 3,
+      "nome": "Labinzeiro"
+    }
+  ],
+  "funcionarios": [
+    {
+      "pessoaId": 3,
+      "tipo": "Docente",
+      "cargoId": 1,
+      "fucaoId": [
+        {
+          "id": 1,
+          "nome": "Lecionar"
+        },
+        {
+          "id": 2,
+          "nome": "Bibliotecario"
+        },
+        {
+          "id": 3,
+          "nome": "Labinzeiro"
+        }
+      ],
+      "id": 1
+    }
   ]
 }
